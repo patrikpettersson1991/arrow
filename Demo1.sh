@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 source conf/config.cfg
 echo "Creating resource group: $RG"
 az group create --location westeurope --name $RG
